@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anurag's frontend developer portfolio featuring web development projects.">
+  <title>Anurag Singh | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">Anurag<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="nav-links">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-contact">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Anurag Singh<span>.</span></h1>
+
+        <h2>Frontend Developer <span class="outline-text">in progress</span></h2>
+
+        <p class="hero-description">
+          I'm a B.Tech Computer Science student who enjoys building
+          websites and learning modern frontend technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+        <p class="hero-note">
+          Currently learning React and improving my development skills.
+        </p>
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative code illustration">
+        <div class="code-card">
+          <div class="code-top">
+            <span></span><span></span><span></span>
+            <p>developer.js</p>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent">name: <span class="code-green">"Anurag"</span>,</p>
+            <p class="indent">field: <span class="code-green">"Frontend"</span>,</p>
+            <p class="indent">learning: [</p>
+            <p class="indent2"><span class="code-green">"JavaScript"</span>,</p>
+            <p class="indent2"><span class="code-green">"React"</span></p>
+            <p class="indent">]</p>
+            <p>};</p>
+            <p class="code-comment">// Always learning...</p>
+          </div>
+
+          <div class="code-status">
+            <span class="status-dot"></span> Building new things
+          </div>
+        </div>
+        <div class="glow-circle"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-card">
+        <div class="about-mark">A<span>.</span></div>
+
+        <div>
+          <h3>A student who loves building for the web.</h3>
+          <p>
+            Hi, I'm Anurag, a B.Tech Computer Science student interested
+            in frontend development. I have built projects using HTML,
+            CSS, and JavaScript, and I have also created a recipe finder
+            application with React. I'm continuing to improve my skills
+            by learning and building projects.
+          </p>
+
+          <div class="about-facts">
+            <div>
+              <span class="fact-label">EDUCATION</span>
+              <strong>B.Tech CSE</strong>
+            </div>
+            <div>
+              <span class="fact-label">FOCUS</span>
+              <strong>Frontend Development</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'VE BUILT</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="section-description">
+          A selection of projects I've worked on while learning web development.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Recipe Finder -->
+        <article class="project-card">
+          <div class="project-visual recipe-visual">
+           <img src="images/recipe-finder.png.png" alt="Recipe Finder" class="project-image">
+          </div>
+
+          <div class="project-info">
+            <div class="project-tags">
+              <span>React</span>
+              <span>JavaScript</span>
+            </div>
+            <h3>Recipe Finder</h3>
+            <p>
+              A recipe finder application built with React and deployed
+              on Vercel.
+            </p>
+            <div class="project-actions">
+              <!-- Replace # with your real Vercel URL -->
+              <a href="https://recipe-project-0114rajput.vercel.app/" class="project-link placeholder-link"
+                 data-label="Recipe Finder live demo">Live Demo ↗</a>
+              <!-- Replace # with your real GitHub repository URL -->
+              <a href="https://github.com/0114rajput/RecipeProject.git" class="project-link placeholder-link"
+                 data-label="Recipe Finder GitHub repository">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Movie Search -->
+        <article class="project-card">
+          <div class="project-visual movie-visual">
+             <img src="images/movie-project.png.png" alt="Movie Search" class="project-image">
+
+          </div>
+
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <h3>Movie Search App</h3>
+            <p>
+              A movie search website that uses the OMDb API to retrieve
+              movie information.
+            </p>
+            <div class="project-actions">
+              <a href="https://0114rajput.github.io/MovieHub-Project/" class="project-link placeholder-link"
+                 data-label="Movie Search live demo">Live Demo ↗</a>
+              <a href="https://github.com/0114rajput/MovieHub-Project.git" class="project-link placeholder-link"
+                 data-label="Movie Search GitHub repository">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Wanderlust -->
+        <article class="project-card">
+          <div class="project-visual travel-visual">
+          <img src="images/wanderlust.png.png" alt="Travel Website" class="project-image">
+
+          </div>
+
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <h3>Wanderlust</h3>
+            <p>
+              A multi-page travel website created with HTML and CSS,
+              featuring travel destinations and information.
+            </p>
+            <div class="project-actions">
+              <a href="https://0114rajput.github.io/WanderLust/" class="project-link placeholder-link"
+                 data-label="Wanderlust live demo">Live Demo ↗</a>
+              <a href="https://github.com/0114rajput/WanderLust.git" class="project-link placeholder-link"
+                 data-label="Wanderlust GitHub repository">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills & <span>Technologies</span></h2>
+        <p class="section-description">
+          Technologies I've used or am currently learning.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon">01</span>
+          <h3>HTML5</h3>
+          <p>Page structure and semantic markup</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">02</span>
+          <h3>CSS3</h3>
+          <p>Layouts, styling and responsive design</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">03</span>
+          <h3>JavaScript</h3>
+          <p>Web interactivity and API integration</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">04</span>
+          <h3>React</h3>
+          <p>Currently learning component-based development</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">05</span>
+          <h3>Git & GitHub</h3>
+          <p>Version control and code repositories</p>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">06</span>
+          <h3>Vercel</h3>
+          <p>Deploying web projects</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity?<br><span>Let's talk.</span></h2>
+        <p>
+          I'm interested in frontend development internships and
+          opportunities to learn through real-world projects.
+        </p>
+
+        <!-- Replace with your actual email address -->
+        <a href="mailto:0114anurag@gmail.com"
+           class="btn btn-primary" id="email-link">
+          Get In Touch ↗
+        </a>
+
+        <div class="social-links">
+          <!-- Replace # with your real profile URLs -->
+          <a href="http://github.com/0114rajput" class="placeholder-link"
+             data-label="GitHub profile">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/0114-rajput" class="placeholder-link"
+             data-label="LinkedIn profile">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">Anurag<span>.</span></a>
+    <p>Designed and built by Anurag Singh.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
