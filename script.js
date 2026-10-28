@@ -41,7 +41,6 @@ document.querySelectorAll(".placeholder-link").forEach((link) => {
   });
 });
 
-// Set your actual email address here before publishing
 const contactEmail = "0114anurag@gmail.com";
 const emailLink = document.getElementById("email-link");
 
